@@ -8,7 +8,7 @@ int main()
 		do
 		{
 			scanf("%d", &b);
-			i = i + 1;
+			i = i ++;
 			if (b > r)
 				printf("My number is smaller\n");
 			else if (b < r)
