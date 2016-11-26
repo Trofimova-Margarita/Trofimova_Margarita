@@ -18,6 +18,10 @@ int main()
 		{
 			p = (height - 100)*0.85;
 		}
+		else
+		{
+			printf("Error!");
+		}
 			if (weight == p)
 				printf("Your weight is normal");
 			else if (weight > p)

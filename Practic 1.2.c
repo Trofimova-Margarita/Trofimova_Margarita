@@ -14,10 +14,10 @@ int main()
 		printf("Good evening!");
 	else if (hour >= 4 && hour < 12)
 		printf("Good morning!");
-	else if (hour >= 12 && hour < 17)
+		 else if (hour >= 12 && hour < 17)
 		printf("Good afternoon!");
-	else
-		printf("Good night!");
+			  else
+				  printf("Good night!");
 	getch();
 	return 0;
 }
