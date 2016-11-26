@@ -11,13 +11,13 @@ int main()
 	scanf("%d", &second);
 	printf("Current time: %d:%d:%d\n", hour, minute, second);
 	if (hour >= 17 && hour < 23)
-		printf("Good evening!");
+	    printf("Good evening!");
 	else if (hour >= 4 && hour < 12)
-		printf("Good morning!");
-	else if (hour >= 12 && hour < 17)
-		printf("Good afternoon!");
-	else
-		printf("Good night!");
+		 printf("Good morning!");
+	     else if (hour >= 12 && hour < 17)
+		      printf("Good afternoon!");
+		  else
+		      printf("Good night!");
 	getch();
 	return 0;
 }
