@@ -11,17 +11,17 @@ int main()
 	printf("Enter your height (sm):");
 	scanf("%f", &height);
 	if (gender == 'm')
-		p = (height - 100)*0.9;
+	    p = (height - 100)*0.9;
 	else if (gender == 'f')
-		p = (height - 100)*0.85;
-	else
-		printf("Error!");
+	         p = (height - 100)*0.85;
+	     else
+		 printf("Error!");
 	if (weight == p)
-		printf("Your weight is normal");
+	    printf("Your weight is normal");
 	else if (weight > p)
-		printf("You need to lose weight");
-	else
-		printf("You need to get fat");
+		 printf("You need to lose weight");
+	     else
+		 printf("You need to get fat");
 	getch();
 	return 0;
 }
