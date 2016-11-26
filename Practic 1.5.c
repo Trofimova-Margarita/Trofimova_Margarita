@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-	char str[80];
+	char str[120];
 	int length=120, p = 0;
 	printf("Enter the string:\n");
 	gets(str);
