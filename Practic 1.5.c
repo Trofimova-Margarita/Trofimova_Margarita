@@ -8,7 +8,9 @@ int main()
 	p = (length - strlen(str)) / 2;
 	system("cls");
 	for (int i = 0; i <= p; i++)
+	{
 		printf(" ");
+	}
 	printf("%s", str);
 	getch();
 	return 0;

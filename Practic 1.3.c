@@ -13,13 +13,13 @@ int main()
 		printf("%fR", angle);
 	}
 	else if (unit == 'R' || unit == 'r')
-		 {
-			 printf("%f%R=", angle);
-			 angle = (angle * 180) / pi;
-			 printf("%fD", angle);
-		 }
-		 else
-			 printf("Error!");
+	{
+		printf("%f%R=", angle);
+		angle = (angle * 180) / pi;
+		printf("%fD", angle);
+	}
+	else
+		printf("Error!");
 	getch();
 	return 0;
 }

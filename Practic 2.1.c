@@ -11,7 +11,7 @@ int main()
 		l = (g*pow(t, 2)) / 2;
 		h = h - l;
 		if (h > 0)
-			printf("t=%.2dc \t h=%fm\n",t,h);
+		printf("t=%.2dc \t h=%fm\n",t,h);
 	}
 	printf("BABAH!!!");
 	getch();
