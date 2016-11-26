@@ -8,9 +8,9 @@ int main()
 	scanf("%f", &h);
 	for (int t = 0; h>0; t++)
 	{
-		l = (g*pow(t, 2)) / 2;
-		h = h - l;
-		if (h > 0)
+	    l = (g*pow(t, 2)) / 2;
+	    h = h - l;
+	    if (h > 0)
 		printf("t=%.2dc \t h=%fm\n",t,h);
 	}
 	printf("BABAH!!!");
