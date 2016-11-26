@@ -8,18 +8,18 @@ int main()
 	scanf("%f%c", &angle,&unit);
 	if (unit == 'D' || unit == 'd')
 	{
-		printf("%f%D=", angle);
-		angle = (angle * pi) / 180;
-		printf("%fR", angle);
+	    printf("%f%D=", angle);
+	    angle = (angle * pi) / 180;
+	    printf("%fR", angle);
 	}
 	else if (unit == 'R' || unit == 'r')
-	{
-		printf("%f%R=", angle);
-		angle = (angle * 180) / pi;
-		printf("%fD", angle);
-	}
-	else
-		printf("Error!");
+	     {
+		 printf("%f%R=", angle);
+		 angle = (angle * 180) / pi;
+		 printf("%fD", angle);
+	     }
+	     else
+		 printf("Error!");
 	getch();
 	return 0;
 }
