@@ -8,21 +8,21 @@ int main()
 	for (int i = 0; str[i] != '\0'; i++)
 	{
 	    if (str[i] != ' ')
-			{
-	    printf("%c", str[i]);
-				d++;
-			}
-			if (str[i] != ' ' && str[i + 1] == ' ')
-			{
-				printf(" (%d)\n", d);
-				d = 0;
-				a++;
-			}
-			if (str[i] != ' ' && str[i + 1] == '\0')
-			{
-				printf(" (%d)\n", d);
-				a++;
-			}
+	    {
+		printf("%c", str[i]);
+		d++;
+	    }
+	    if (str[i] != ' ' && str[i + 1] == ' ')
+	    {
+		printf(" (%d)\n", d);
+		d = 0;
+		a++;
+	    }
+	    if (str[i] != ' ' && str[i + 1] == '\0')
+	    {
+		printf(" (%d)\n", d);
+		a++;
+	    }
 	}
 	printf("You enter %d words", a);
 	getch();
