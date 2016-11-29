@@ -12,7 +12,7 @@ int main()
 	for (int i = 1; i < map_size; i++)
 	{
 	    if (map[i])
-	  printf("'%c' -> %d\n", (char)i, map[i]);
+		printf("'%c' -> %d\n", (char)i, map[i]);
 	}
 	getch();
 	return 0;
