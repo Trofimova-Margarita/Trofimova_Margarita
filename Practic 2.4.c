@@ -7,9 +7,9 @@ int main()
 	srand(time(NULL));
 	for (int i = 0; i < strlen(string); i++)
 	{
-		r = rand() % 62;
-		switch (r)
-		{
+	    r = rand() % 62;
+	    switch (r)
+	    {
 		case 0:string[i] = 'a';
 			break;
 		case 1:string[i] = 'b';
@@ -134,13 +134,13 @@ int main()
 			break;
 		case 61:string[i] = '9';
 			break;
-		}
+	    }
 	}
 	printf("String before: %s\nString after:  ", string);
 	for (int i = 0; i < strlen(string); i++)
 	{
 	    if ((string[i] >= (char)65 && string[i] <= (char)90) || (string[i] >= (char)97 && string[i] <= (char)122))
-	  printf("%c", string[i]);
+	 	printf("%c", string[i]);
 	}
 	for (int i = 0; i < strlen(string); i++)
 	{
