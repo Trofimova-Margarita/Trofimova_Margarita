@@ -3,7 +3,6 @@ int main()
 {
 	int r = 0;
 	char string[50];
-	char alph, number;
 	srand(time(NULL));
 	for (int i = 0; i < strlen(string); i++)
 	{
