@@ -4,6 +4,7 @@ int main()
 {
 	int b = 0, r = 0, i = 0;
 	printf("Guess the number I put forth\n");
+	srand(time(NULL));
 	r = 1 + rand() % 100;
 	do
 	{
