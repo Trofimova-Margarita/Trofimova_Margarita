@@ -1,1 +1,0 @@
-# Trofimova_Margarita
