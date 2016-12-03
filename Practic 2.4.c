@@ -36,7 +36,7 @@ int main()
 	    if ((string[i] >= (char)B && string[i] <= (char)90) || (string[i] >= (char)C && string[i] <= (char)122))
 		printf("%c", string[i]);
 	}
-	for (int i = 0; i < strlen(string); i++)
+	for (int i = 0; i < 40; i++)
 	{
 	    if (string[i] >= (char)A && string[i] <= (char)57)
 		printf("%c", string[i]);
