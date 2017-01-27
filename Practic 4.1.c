@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdbool.h>
-#define SIZE_STR 80
+#define SIZE_STR 120
 #define MAX_STR 100
 
 void sort(char **p, int size);
