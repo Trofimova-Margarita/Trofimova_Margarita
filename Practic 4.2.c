@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define SIZE 80
+#define SIZE 120
 
 int main()
 {
